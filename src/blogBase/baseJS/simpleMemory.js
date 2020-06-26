@@ -1,8 +1,8 @@
 window.cnblogsConfig = {
     GhVersions    : 'v2020.4.7', // 版本
-    blogUser      : "༺ཌ༈君☠纤༈ད༻", // 用户名
+    blogUser      : "ソ生活不允許你的軟弱", // 用户名
     blogAvatar    : "https://pic.cnblogs.com/avatar/1924746/20200215183155.png", // 用户头像
-    blogStartDate : "2020-1-17", // 入园时间，年-月-日。入园时间查看方法：鼠标停留园龄时间上，会显示入园时间
+    blogStartDate : "2020-6-25", // 入园时间，年-月-日。入园时间查看方法：鼠标停留园龄时间上，会显示入园时间
 }
 
 
