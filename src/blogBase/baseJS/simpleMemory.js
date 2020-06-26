@@ -1,7 +1,7 @@
 window.cnblogsConfig = {
     GhVersions    : 'v2020.4.7', // 版本
     blogUser      : "ソ生活不允許你的軟弱", // 用户名
-    blogAvatar    : "https://pic.cnblogs.com/avatar/1924746/20200215183155.png", // 用户头像
+    blogAvatar    : "https://p0.ssl.qhimgs1.com/sdr/400__/t01394e95262712c14e.jpg", // 用户头像
     blogStartDate : "2020-6-25", // 入园时间，年-月-日。入园时间查看方法：鼠标停留园龄时间上，会显示入园时间
 }
 
@@ -102,8 +102,8 @@ if (initCheck()) {
         '<div id="rightMenu"></div>';
 
     window.cnblogsConfigDefault = {
-        GhUserName: 'glassy-sky-lisong',   //GitHub用户名
-        GhRepositories: 'SimpleMemory-Theme',  //GitHub仓库名
+        GhUserName: 'AsioSir',   //GitHub用户名
+        GhRepositories: 'AsioBlogTheme-SimpleMemory',  //GitHub仓库名
         GhVersions: 'v2020.4.7',   //GitHub发布版本或提交哈希值，根据版本加载代码。
         CnVersions: "",
         isVersionMapping: true,
