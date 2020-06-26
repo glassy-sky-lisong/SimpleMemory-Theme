@@ -24,7 +24,7 @@ require.config({
         fancybox: setFileNameMin('jquery.fancybox.min', 'js'),
         //-- 文章标题
         title: setFileNameMin('articleTitle', 'js'),
-        //-- 文章目录s
+        //-- 文章目录
         marvin: setFileNameMin('marvin.nav2', 'js'),
         //-- 文章后缀
         articleStatement: setFileNameMin('articleStatement', 'js'),
@@ -57,6 +57,14 @@ require.config({
         optiscroll_ToProgress_rotate: setFileNameMin('optiscroll_ToProgress_rotate.min', 'js'),
         //-- 非主页头图动画
         TweenMax_MyTween: setFileNameMin('TweenMax_MyTween.min', 'js'),
+        //--鼠标样式
+        mouseClick:setFileNameMin('mouse-click','js'),
+        //--吊死喵
+        miao:setFileNameMin('miao','js'),
+        //--footer游鱼样式
+        fish: setFileNameMin('fish','js'),
+        //主题切换
+        changeTheme:setFileNameMin('changeTheme','js')
     },
     shim:{
         optiscroll: {
@@ -64,9 +72,6 @@ require.config({
         },
         classie: {
             deps: ['snapSvg'],
-        },
-        title: {
-            deps: ['tools'],
         },
         main4: {
             deps: ['snapSvg','classie', 'css!'+getJsDelivrUrl('menu_bubble.css')]
@@ -98,7 +103,7 @@ require.config({
         base: {
             deps: [
                 'tools',
-                'css!//at.alicdn.com/t/font_543384_msjvd6htfjp.css', // 阿里云字体图标
+                'css!//at.alicdn.com/t/font_543384_g1asam8dmlp.css', // 阿里云字体图标
                 'css!'+getJsDelivrUrl('google-fonts.css'), // 谷歌字体
             ]
         },

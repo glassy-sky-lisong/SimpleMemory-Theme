@@ -1493,8 +1493,7 @@ var Spinner = function () {
         value: function _completeAnimation() {
 
             // Fade out the canvas.
-            // this._canvasOpacity -= 0.1;
-            this._canvasOpacity = 0;
+            this._canvasOpacity -= 0.1;
             this._canvas.style.opacity = this._canvasOpacity;
 
             // Stop animation and remove canvas.

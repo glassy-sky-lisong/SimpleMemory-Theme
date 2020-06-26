@@ -37,7 +37,7 @@ function myTools() {
             + window.cnblogsConfig.GhRepositories + '/tree/'
             + window.cnblogsConfig.GhVersions,
 
-            e = ["\n %c %c %c Theme GitHub - " + (window.cnblogsConfig.GhVersions).substring(0,7)+" %c  %c "+rHref+"  %c \n\n", "background: #fadfa3; padding:5px 0;", "background: #fadfa3; padding:5px 0;", "color: #fadfa3; background: #030307; padding:5px 0;", "background: #fadfa3; padding:5px 0;", "background: #FCEDC9; padding:5px 0;", "background: #fadfa3; padding:5px 0;"];
+            e = ["\n %c %c %c Theme GitHub - " + (window.cnblogsConfig.GhVersions).substring(0,7)+" %c  %c " + "  %c \n", "background: #fadfa3; padding:5px 0;", "background: #fadfa3; padding:5px 0;", "color: #fadfa3; background: #030307; padding:5px 0;", "background: #fadfa3; padding:5px 0;", "background: #FCEDC9; padding:5px 0;", "background: #fadfa3; padding:5px 0;"];
         window.console.log.apply(console, e);
         switch (mode) {
             case 'random':
@@ -51,7 +51,8 @@ function myTools() {
             case 'banner':
                 $.each(list, function (i) {
                     var fl = list[i];
-                    console.log('\n' + ' %c '+(fl[0])+' %c '+(fl[1])+' ' + '\n', 'color: #fadfa3; background: #030307; padding:5px 0;', 'background: #fadfa3; padding:5px 0;');
+                    console.info("%c ", "background: url(https://files.cnblogs.com/files/poloyy/console.gif) no-repeat center;padding-left:400px;padding-bottom: 160px;background-size:400px");
+                    console.log('\n' + ' %c ༺ཌ༈君☠纤༈ད༻  CNBlogs %c https://www.cnblogs.com/asio ' + '\n', 'color: #fadfa3; background: #030307; padding:5px 0;', 'background: #fadfa3; padding:5px 0;');
                 });
                 break;
 
@@ -181,31 +182,7 @@ function myTools() {
     this.getRandomColor = function(){
         return  '#' + (function(color){
             return (color +=  '0123456789abcdef'[Math.floor(Math.random()*16)])
-            && (color.length === 6) ?  color : arguments.callee(color);
+            && (color.length == 6) ?  color : arguments.callee(color);
         })('');
-    };
-
-    /**
-     * 设置 cookie
-     * @param key
-     * @param value
-     * @param expires 过期时间，单位秒
-     */
-    this.setCookie = function(key, value, expires) {
-        var exp = new Date();
-        exp.setTime(exp.getTime() + expires * 1000);
-        document.cookie = key + "=" + escape (value) + "; expires=" + exp.toGMTString() + "; path=/";
-    };
-
-    /**
-     * 获取 cookie
-     * @param key
-     * @returns {string|null}
-     */
-    this.getCookie = function(key) {
-        var arr, reg = new RegExp("(^| )"+key+"=([^;]*)(;|$)");
-        arr = document.cookie.match(reg);
-        if (arr) return unescape(arr[2]);
-        else return null;
-    };
+    }
 }
