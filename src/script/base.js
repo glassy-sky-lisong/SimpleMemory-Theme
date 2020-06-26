@@ -135,7 +135,7 @@ function Base() {
         $('.m-list-title-select').click(function(){ $(this).parents('.m-list-title').next('.m-icon-list').slideToggle(500) });
 
         // 添加页面特效控制
-        // bndongJs.setPageAnimationControl();
+         bndongJs.setPageAnimationControl();
 
         // 添加日/夜间模式控制
         window.cnblogsConfig.switchDayNight.enable && bndongJs.setDayNightControl();
