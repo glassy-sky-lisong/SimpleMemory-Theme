@@ -102,8 +102,8 @@ if (initCheck()) {
         '<div id="rightMenu"></div>';
 
     window.cnblogsConfigDefault = {
-        GhUserName: 'AsioSir',   //GitHub用户名
-        GhRepositories: 'AsioBlogTheme-SimpleMemory',  //GitHub仓库名
+        GhUserName: 'glassy-sky-lisong',   //GitHub用户名
+        GhRepositories: 'SimpleMemory-Theme',  //GitHub仓库名
         GhVersions: 'v2020.4.7',   //GitHub发布版本或提交哈希值，根据版本加载代码。
         CnVersions: "",
         isVersionMapping: true,
@@ -123,8 +123,8 @@ if (initCheck()) {
         menuNavList: [
             // 列表数据 ['导航名称', '链接']
             ['博客园', 'https://www.cnblogs.com/'],
-            ['༺ཌ༈Asio君༈ད༻','https://blog.csdn.net/weixin_43439972'],
-            ['虫部落资源','http://magnet.chongbuluo.com/'],
+            ['GitHub','https://github.com/'],
+            ['掘金','https://juejin.im/'],
             ['联系博主','https://msg.cnblogs.com/send/']
         ],//自定义菜单导航，显示在默认导航下方
         menuUserInfoBgImg: 'https://files.cnblogs.com/files/asio/menu_bg.gif',//菜单个人信息背景图片
@@ -132,7 +132,7 @@ if (initCheck()) {
         webpageTitleOnblurTimeOut: 500,//当页面失去焦点，页面title变化的延时时间，单位毫秒。
         webpageTitleFocus: "(*´∇｀*) 欢迎回来！",//当页面获取焦点，页面title显示的文字；显示后，延时恢复原title
         webpageTitleFocusTimeOut: 1000,//当页面获取焦点，页面title变化的延时时间，单位毫秒
-        webpageIcon: "https://files.cnblogs.com/files/asio/blog_logo.gif",//网站图标图片Url
+        webpageIcon: "https://p0.ssl.qhimgs1.com/sdr/400__/t01394e95262712c14e.jpg",//网站图标图片Url
         fontIconExtend: "",//字体图标库扩展Css的Url
         progressBar: {//进度条配置，显示在页面顶部
             id: 'top-progress-bar',// 请勿修改该值
@@ -351,18 +351,18 @@ if (initCheck()) {
         },
         bottomBlogroll: [
             // 友情链接，[[链接名,链接]....]
-            ["申请坑位", 'https://msg.cnblogs.com/send/asio'],
-            ["申请坑位", 'https://msg.cnblogs.com/send/asio'],
-            ["申请坑位", 'https://msg.cnblogs.com/send/asio']
+            ["申请坑位", 'https://msg.cnblogs.com/send/haochenQAQ'],
+            ["申请坑位", 'https://msg.cnblogs.com/send/haochenQAQ'],
+            ["申请坑位", 'https://msg.cnblogs.com/send/haochenQAQ']
         ],//友情链接
         bottomText: {//页脚标语
             icon: "❤️",
-            left: "☞ bug全无",
-            right: "测试全过 ☜"
+            left: "☞ 生活不易",
+            right: "请多珍惜 ☜"
         },
         footerStyle: 3,//页脚样式，有1和2,3   parseInt(Math.random() * 3 + 1)
         consoleList: [
-            ['君纤 CNBlogs', 'https://www.cnblogs.com/asio']
+            ['君纤 CNBlogs', 'https://www.cnblogs.com/haochenQAQ']
         ],//控制台输出
         bookList: [ ],
         themeAuthor: false,   //是否显示主题作者
