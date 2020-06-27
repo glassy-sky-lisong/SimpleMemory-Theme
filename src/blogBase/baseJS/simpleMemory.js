@@ -1,6 +1,8 @@
 window.cnblogsConfig = {
-    GhVersions    : 'v2020.4.7', // 版本
-    blogUser      : "༺ཌ༈君☠纤༈ད༻", // 用户名
+    GhUserName: 'glassy-sky-lisong',   //GitHub用户名
+    GhRepositories: 'SimpleMemory-Theme',  //GitHub仓库名
+    GhVersions: 'v1.04',   //GitHub发布版本或提交哈希值，根据版本加载代码。
+    blogUser      : "生活不允许你的软弱", // 用户名
     blogAvatar    : "https://pic.cnblogs.com/avatar/1924746/20200215183155.png", // 用户头像
     blogStartDate : "2020-1-17", // 入园时间，年-月-日。入园时间查看方法：鼠标停留园龄时间上，会显示入园时间
 }
@@ -104,7 +106,7 @@ if (initCheck()) {
     window.cnblogsConfigDefault = {
         GhUserName: 'glassy-sky-lisong',   //GitHub用户名
         GhRepositories: 'SimpleMemory-Theme',  //GitHub仓库名
-        GhVersions: 'v2020.4.7',   //GitHub发布版本或提交哈希值，根据版本加载代码。
+        GhVersions: 'v1.04',   //GitHub发布版本或提交哈希值，根据版本加载代码。
         CnVersions: "",
         isVersionMapping: true,
 		codeMaxHeight: true,  //代码最高限制，超过长度的70%scroll
@@ -362,7 +364,7 @@ if (initCheck()) {
         },
         footerStyle: 3,//页脚样式，有1和2,3   parseInt(Math.random() * 3 + 1)
         consoleList: [
-            ['君纤 CNBlogs', 'https://www.cnblogs.com/haochenQAQ']
+            ['生活不允许你的软弱 CNBlogs', 'https://www.cnblogs.com/haochenQAQ']
         ],//控制台输出
         bookList: [ ],
         themeAuthor: false,   //是否显示主题作者
@@ -453,35 +455,35 @@ function getVersionConfig() {
             }
         });
 
-    } else if(window.cnblogsConfig.GhUserName === 'BNDong') {
+    } else if(window.cnblogsConfig.GhUserName === 'glassy-sky-lisong') {
         window.themeVersion = [
             [
-                "v1.1.6",
+                "v1.06",
                 "d8adfb50252062f658350bda29d7145f5eff0b80"
             ]
             ,
             [
-                "v1.1.8",
+                "v1.05",
                 "461aab69de17a84f0af9ff0c326bfcb94438b06c"
             ]
             ,
             [
-                "v1.2.2",
+                "v1.04",
                 "08eab99303d7c463a495adabd8feccc784a8507d"
             ]
             ,
             [
-                "v1.2.3",
+                "v1.03",
                 "36901bf16e2aa3656d4e6f78d44486273b0b8972"
             ]
             ,
             [
-                "v1.2.4",
+                "v1.02",
                 "9354db2147c11fc56cfe02a502f1f8229332fc2f"
             ]
             ,
             [
-                "v1.2.5",
+                "v1.01",
                 "4d744f980758500078df349520472e3b360fb841"
             ]
         ];

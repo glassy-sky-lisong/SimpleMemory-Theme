@@ -684,7 +684,7 @@ function Base() {
             });
 
             $('.footer-image').css({
-                'background': 'url(https://cdn.jsdelivr.net/gh/AsioSir/AsioBlogTheme-SimpleMemory@master/img/webp/footer.webp) no-repeat 50%',
+                'background': 'url(https://cdn.jsdelivr.net/gh/glassy-sky-lisong/SimpleMemory-Theme@master/img/webp/footer.webp) no-repeat 50%',
                 'height': '368px',
                 'z-index': '1',
                 'position': 'absolute',
@@ -1260,7 +1260,7 @@ function Base() {
 
         // 使用 highlightjs 代码样式
         function highlightjsCode() {
-            tools.dynamicLoadingCss('https://cdn.jsdelivr.net/gh/AsioSir/'+(window.cnblogsConfig.GhRepositories)+'@'+(window.cnblogsConfig.GhVersions)+'/src/style/highlightjs/'+hltheme+'.min.css');
+            tools.dynamicLoadingCss('https://cdn.jsdelivr.net/gh/glassy-sky-lisong/'+(window.cnblogsConfig.GhRepositories)+'@'+(window.cnblogsConfig.GhVersions)+'/src/style/highlightjs/'+hltheme+'.min.css');
             require(['highlightjs'], function() {
                 $('.post pre').each(function(i, block) {
                     if ($.inArray(hltheme, [
@@ -1387,7 +1387,7 @@ function Base() {
                         var patch = op.text();
                         html += '<img class="comment-avatar" src="'+patch+'"/>';
                     } else {
-                        html += '<img class="comment-avatar" src="https://cdn.jsdelivr.net/gh/AsioSir/AsioBlogTheme-SimpleMemory@master/img/webp/default_avatar.webp"/>';
+                        html += '<img class="comment-avatar" src="https://cdn.jsdelivr.net/gh/glassy-sky-lisong/SimpleMemory-Theme@master/img/webp/default_avatar.webp"/>';
                     }
                     $(commentList[i]).before(html);
                 }

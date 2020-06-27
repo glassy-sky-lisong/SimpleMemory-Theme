@@ -52,7 +52,7 @@ function myTools() {
                 $.each(list, function (i) {
                     var fl = list[i];
                     console.info("%c ", "background: url(https://files.cnblogs.com/files/poloyy/console.gif) no-repeat center;padding-left:400px;padding-bottom: 160px;background-size:400px");
-                    console.log('\n' + ' %c ༺ཌ༈君☠纤༈ད༻  CNBlogs %c https://www.cnblogs.com/asio ' + '\n', 'color: #fadfa3; background: #030307; padding:5px 0;', 'background: #fadfa3; padding:5px 0;');
+                    console.log('\n' + ' %c 生活不允许你的软弱  CNBlogs %c https://www.cnblogs.com/haochenQAQ ' + '\n', 'color: #fadfa3; background: #030307; padding:5px 0;', 'background: #fadfa3; padding:5px 0;');
                 });
                 break;
 
