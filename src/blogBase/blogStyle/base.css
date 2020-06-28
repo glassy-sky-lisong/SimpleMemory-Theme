@@ -465,7 +465,8 @@ b {
     color: #888;
     position: relative;
     top: 10px;
-    display: none;
+    padding-bottom: 10px;
+    display: inline-block;
 }
 
 .postMeta > i {
@@ -486,6 +487,7 @@ b {
     font-size: 1.4rem;
     line-height: 2.2rem;
     color: #9EABB3;
+    display: none;
 }
 
 .postDesc a:link,.postDesc a:visited,.postDesc a:active {
