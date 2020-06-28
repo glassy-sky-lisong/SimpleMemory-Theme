@@ -52,6 +52,11 @@
     font-size:16px;
     transition: all 0.3s;
 }
+
+a[class="dashang"] {
+    color:#fff;
+}
+
 .dashang:hover{
     opacity:0.8;
     padding:8px;
