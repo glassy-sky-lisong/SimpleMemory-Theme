@@ -1061,8 +1061,14 @@ function Base() {
     this.initCatalog = function() {
         const sideToolbar = $('#sideToolbar');
         if (sideToolbar.length > 0) {
-            const sideToolbarTop = $('.main-header').outerHeight();
-            sideToolbar.css('top', (sideToolbarTop + 5) + 'px');
+            //new code
+            // const sideToolbarTop = $('.main-header').outerHeight();
+            // sideToolbar.css('top', (sideToolbarTop + 5) + 'px');
+            // old code
+            sideToolbar.prepend('<span class="catalog-btn"><i class="iconfont icon-menudots"></i></span>').fadeIn(300);
+            $('.catalog-btn').click(function () {
+                $('.sideCatalogBg').toggle();
+            });
             bndongJs.resizeMonitor();
             sideToolbar.fadeIn(300);
             bndongJs.clearIntervalTimeId(timeIds.setCatalogTId);
