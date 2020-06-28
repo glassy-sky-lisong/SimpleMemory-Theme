@@ -5,7 +5,7 @@ window.onload = function(){
     init()
     function init() {
         var date = new Date();
-        var nowtime = date.getFullYear() + "-" + date.getMonth() + "-" + date.getDay() + " " + date.toLocaleTimeString('chinese',{hour12:false});
+        var nowtime = date.getFullYear() + "-" + (date.getMonth()+1) + "-" + date.getDate() + " " + date.toLocaleTimeString('chinese',{hour12:false});
         document.getElementById("notice_time").innerText = nowtime;
         testAnim(anim)
         animTimer();
