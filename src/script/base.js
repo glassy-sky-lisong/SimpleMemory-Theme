@@ -231,7 +231,9 @@ function Base() {
             var listWidth        = $('#sideCatalog').outerWidth(true);
             listWidth = listWidth > 220 ? listWidth : 242;
             var bothWidth        = (bodyWidth - mainContentWidth) / 2;
-            var rightPx          = bothWidth - listWidth - 50;
+            var rightPx          = bothWidth - listWidth - 50,
+                catalogBtn       = $('.catalog-btn'),
+                sideToolbarTop   = $('.main-header').outerHeight();
 
             $('#sideCatalog').css('right', (rightPx > 0 ? rightPx : 0) + 'px');
             // if (bothWidth > listWidth + 50 && bodyWidth > 1230) {
