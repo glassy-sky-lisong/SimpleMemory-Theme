@@ -237,7 +237,7 @@ function Base() {
 
             $('#sideCatalog').css('right', (rightPx > 0 ? rightPx : 0) + 'px');
             // if (bothWidth > listWidth + 50 && bodyWidth > 1230) {
-            if (bodyWidth > 1200/*1360*/) {
+            if (bodyWidth > 1360) {
                 $('#sideToolbar').css('visibility', 'visible');
             } else {
                 $('#sideToolbar').css('visibility', 'hidden');
@@ -1061,6 +1061,7 @@ function Base() {
     this.initCatalog = function() {
         const sideToolbar = $('#sideToolbar');
         if (sideToolbar.length > 0) {
+            console.log("sideToolbar.length > 0");
             //new code
             // const sideToolbarTop = $('.main-header').outerHeight();
             // sideToolbar.css('top', (sideToolbarTop + 5) + 'px');
