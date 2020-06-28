@@ -54,7 +54,7 @@
 }
 
 a[class="dashang"] {
-    color:#fff;
+    color: #fff !important;
 }
 
 .dashang:hover{
