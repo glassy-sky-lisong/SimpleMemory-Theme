@@ -458,6 +458,10 @@ function getVersionConfig() {
     } else if(window.cnblogsConfig.GhUserName === 'glassy-sky-lisong') {
         window.themeVersion = [
 	    [
+                "1.1.8",
+                "c6af946f88e29d58537626f3f5537514fa113c0f"
+            ],
+	    [
 		"v1.1.6",
 		"a5e95ccb8e0a5dc62dbbbec2a837eb692fa4726c"
 	    ],
