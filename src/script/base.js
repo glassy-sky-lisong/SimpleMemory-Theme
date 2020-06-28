@@ -233,14 +233,22 @@ function Base() {
             var bothWidth        = (bodyWidth - mainContentWidth) / 2;
             var rightPx          = bothWidth - listWidth - 50,
                 catalogBtn       = $('.catalog-btn'),
-                sideToolbarTop   = $('.main-header').outerHeight();
+                sideToolbarTop   = $('.main-header').outerHeight(),
+                sideCatalogBg    = $('.sideCatalogBg');
 
             $('#sideCatalog').css('right', (rightPx > 0 ? rightPx : 0) + 'px');
             // if (bothWidth > listWidth + 50 && bodyWidth > 1230) {
-            if (bodyWidth > 1360) {
+           /* if (bodyWidth > 1360) {
                 $('#sideToolbar').css('visibility', 'visible');
             } else {
                 $('#sideToolbar').css('visibility', 'hidden');
+            }*/
+            if (bodyWidth <= 1350) {
+                sideCatalogBg.hide();
+                sideCatalogBg.find('ul.nav li').length > 0 ? catalogBtn.show() : catalogBtn.hide();
+            } else {
+                catalogBtn.hide();
+                sideCatalogBg.find('ul.nav li').length > 0 ? sideCatalogBg.show() : sideCatalogBg.hide();
             }
         }
     };
