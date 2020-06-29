@@ -86,7 +86,7 @@ if (initCheck()) {
         '            <!-- 切换主题按钮 -->' +
         '    <div class="vertical">' +
         '        <div class="main-header-content inner">' +
-        '            <link href="https://fonts.proxy.ustclug.org/css?family=Playball" rel="stylesheet">' +
+        '            <link href="https://cdn.jsdelivr.net/gh/glassy-sky-lisong/SimpleMemory-Theme@v1.2.1/src/blogStyle/font-Playball.css" rel="stylesheet">' +
         '            <h1 class="page-title" style="font-family: \'Playball\', cursive;" id="homeTopTitle"></h1>' +
         '            <h2 class="page-description" id="hitokoto"></h2>' +
         '            <h3 class="page-author" id="hitokotoAuthor"></h3>' +
